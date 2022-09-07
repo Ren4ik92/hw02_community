@@ -26,3 +26,15 @@ def group_posts(request, slug):
         'posts': posts,
     }
     return render(request, template, context)
+
+
+def profile(request, username):
+    context = {
+    }
+    return render(request, 'posts/profile.html', context)
+
+
+def post_detail(request, post_id):
+    context = {
+    }
+    return render(request, 'posts/post_detail.html', context)
