@@ -12,5 +12,5 @@ urlpatterns = [
     path('tech/',
          TemplateView.as_view(
              template_name='about/tech.html'
-         ), name='author'),
+         ), name='tech'),
 ]
